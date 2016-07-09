@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router();
 var Exercise = require('../models/Exercise');
+var Workout = require('../models/Workout');
+var User = require('../models/User')
 var _ = require('underscore')
 
 /* GET home page. */
@@ -37,4 +39,36 @@ router.post('/', function(req, res, next) {
 	})
 });
 
+router.post('/save', function(req, res, next) {
+	var muscles = []
+	for (var i = 0; i < req.body.workout.length; i++) {
+		for (var j = 0; j < req.body.workout[i].muscles.length; j++) {
+			if (muscles.indexOf(req.body.workout[i].muscles[j]) < 0) {
+				muscles.push(req.body.workout[i].muscles[j])
+			}
+		}
+
+	}
+	var newWorkout = Workout({
+		name: req.body.name,
+		targetMuscles: muscles,
+		exercises: req.body.workout
+	})
+	newWorkout.save(function(err) {
+		if (err) return next(err);
+		User.findById(req.user.id, function(err, user) {
+			if (err) return next(err);
+			user.workouts.push(newWorkout)
+			user.save(function(err) {
+				if (err) return next(err);
+				res.redirect('/profile')
+			})
+		})
+	})
+	
+})
+
+router.get('/profile', function(req, res, next) {
+	res.render('profile', req.user);
+})
 module.exports = router;
