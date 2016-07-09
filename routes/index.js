@@ -32,7 +32,7 @@ router.post('/', function(req, res, next) {
 						arr[j].push(exercises[i]);
 					}
 				}
-				
+
 			}
 		}
 		var sets = 12 / muscleArray.length;
@@ -74,7 +74,7 @@ router.post('/save', function(req, res, next) {
 			})
 		})
 	})
-	
+
 })
 
 router.get('/profile', function(req, res, next) {
