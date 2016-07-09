@@ -22,16 +22,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-//FOR TEST PURPOSES OF SELECTOR HBS
-app.get('/', function(req, res, next){
-  res.render('selector');
-})
-
-app.post('/', function(req, res, next){
-  console.log("req is ", req);
-  res.redirect('/');
-})
-
 app.use('/', routes);
 app.use('/users', users);
 
