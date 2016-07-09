@@ -43,7 +43,6 @@ router.post('/', function(req, res, next) {
 				workout.push(temp.pop());
 			}
 		}
-		console.log(workout)
 		res.render('workout', {workout: workout});
 	})
 });
