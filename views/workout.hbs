@@ -1,11 +1,21 @@
-<h1>Workout</h1>
-{{#each workout}}
-	<div>
-	{{name}}
-	{{muscles}}
-	{{equipment}}
-	</div>
-{{/each}}
+
+<div>
+  <h1 class="table-title">Your Personal Workout</h1>
+  <table class="table-wrap">
+    <tr>
+      <th class="th-head">Name</th>
+      <th class="th-head">Muscles</th>
+      <th class="th-head">Equipment</th>
+    </tr>
+    {{#each workout}}
+    	<tr>
+      	<td>{{name}}</td>
+      	<td>{{muscles}}</td>
+      	<td>{{equipment}}</td>
+      </tr>
+    {{/each}}
+  </table>
+</div>
 
 <form method="POST" action="/save">
 	
