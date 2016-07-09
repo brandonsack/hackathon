@@ -1,0 +1,10 @@
+<h1>{{user.username}}</h1>
+<div>
+	<h4>Workouts</h4>
+	{{# each user.workouts}}
+		<form method="GET" action="/savedWorkout">
+			<input style="display:none;" name="workout" value="{{_id}}"></input>
+			<button>{{name}}</button>
+		</form>
+	{{/each}}
+</div>

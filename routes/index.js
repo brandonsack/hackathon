@@ -62,7 +62,7 @@ router.post('/', function(req, res, next) {
 		var newWorkout = Workout({
 			name: "None yet!",
 			targetMuscles: muscleArray,
-			exercises: exerciseArray,
+			exercises: workout,
 			equipment: equipment
 		})
 		newWorkout.save(function(err) {
@@ -74,7 +74,7 @@ router.post('/', function(req, res, next) {
 
 router.post('/save', function(req, res, next) {
 	Workout.findById(req.body.workout, function(err, workout) {
-		workout.name = "req.body.name but actually give me a name"
+		workout.name = req.body.workoutName;
 		workout.save(function(err) {
 			if (err) console.log(err);
 			User.findById(req.user.id, function(err, user) {
@@ -89,6 +89,18 @@ router.post('/save', function(req, res, next) {
 })
 
 router.get('/profile', function(req, res, next) {
-	res.render('profile', req.user);
+	console.log(req.user);
+	res.render('profile', {user: req.user});
+})
+
+router.get('/savedWorkout', function(req, res, next) {
+	Workout.findById(req.query.workout, function(err, workout) {
+		console.log(workout);
+		workout.exercises
+		res.render('savedWorkout', {
+
+			workout: workout.exercises
+		})
+	})
 })
 module.exports = router;
