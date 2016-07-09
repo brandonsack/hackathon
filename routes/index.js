@@ -24,7 +24,7 @@ router.post('/', function(req, res, next) {
 						arr[j].push(excercises[i]);
 					}
 				}
-				
+
 			}
 		}
 		var sets = 12 / req.body.muscles.length;
@@ -65,7 +65,7 @@ router.post('/save', function(req, res, next) {
 			})
 		})
 	})
-	
+
 })
 
 router.get('/profile', function(req, res, next) {

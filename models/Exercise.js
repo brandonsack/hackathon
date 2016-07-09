@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var excercise = mongoose.Schema({
+var exercise = mongoose.Schema({
   name: {
     type: String,
     required: true
