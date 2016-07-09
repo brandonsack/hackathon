@@ -1,10 +1,10 @@
-window.addEventListener("DOMContentLoaded", function () {
-  var form = document.getElementById("form-id");
-  document.getElementById("your-id").addEventListener("click", function () {
-    console.log("HERE IN THE THIS");
-    form.submit();
-  });
-});
+// window.addEventListener("DOMContentLoaded", function () {
+//   var form = document.getElementById("form-id");
+//   document.getElementById("your-id").addEventListener("click", function () {
+//     console.log("HERE IN THE THIS");
+//     form.submit();
+//   });
+// });
 
 document.querySelectorAll(".muscle-groups svg g g[id]").forEach(function(group) {
   // For the hover
