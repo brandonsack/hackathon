@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var schema = mongoose.Schema({
+var workout = mongoose.Schema({
   name: {
     type: String,
     required: true
@@ -16,4 +16,4 @@ var schema = mongoose.Schema({
   equipment: Array
 });
 
-module.exports = mongoose.model('Workout', schema);
+module.exports = mongoose.model('Workout', workout);

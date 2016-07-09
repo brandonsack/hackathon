@@ -12,6 +12,7 @@ router.get('/', function(req, res, next) {
 
 router.post('/', function(req, res, next) {
 	Exercise.find(function(err, exercises) {
+		console.log(req.body)
 		if (err) return next(err)
 		var arr = [];
 		for (var i = 0; i < req.body.muscles.length; i++) {
