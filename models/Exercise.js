@@ -1,6 +1,7 @@
+
 var mongoose = require('mongoose');
 
-var exercise = mongoose.Schema({
+var excercise = mongoose.Schema({
   name: {
     type: String,
     required: true
@@ -15,4 +16,4 @@ var exercise = mongoose.Schema({
   }
 });
 
-module.exports = mongoose.model('Exercise', schema);
+module.exports = mongoose.model('Exercise', excercise);

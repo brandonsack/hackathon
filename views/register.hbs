@@ -1,0 +1,29 @@
+{{#if error}}
+<div class="alert alert-danger" role="alert">
+  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+  <span class="sr-only">Error:</span>
+  {{error.username}}
+  {{error.password}}
+  {{error.passwordr}}
+</div>
+{{/if}}
+<form method="POST" style="max-width: 100%; margin: auto; margin-top: 50px; padding: 30px 30px 30px 30px; height: 23vh;">
+  <div style="text-align: center; background: #232f3e;">
+  <img src="/images/homazon.png" style="height: 40%; width: 80%; text-align: center;">
+</div>
+ <div class="form-group">
+    <label style="font-size: 40px">Phone number</label>
+    <input type="text" name="username" class="form-control" style="height: 5vh; font-size:40px">
+  </div>
+  <div class="form-group">
+    <label style="font-size: 40px">Password</label>
+    <input type="password" name="password" class="form-control" style="height: 5vh; font-size:40px">
+  </div>
+  <div class="form-group">
+    <label style="font-size: 40px">Verify Password</label>
+    <input type="password" name="passwordRepeat" class="form-control" style="height: 5vh; font-size:40px">
+  </div>
+  <div class="form-group" style="display: flex; flex-direction: column; height: 40vh">
+    <button id='submit' class="btn btn-success" style="margin-top: 40px; height: 30%; font-size: 50px;">Register</button>
+  </div>
+</form>
