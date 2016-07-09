@@ -35,7 +35,7 @@ module.exports = function(passport) {
 	    		res.status(500).redirect('/register')
 	    		return;
 	    	}
-	    	res.render('login', {user: u})
+	    	res.redirect('login')
 	    })
 	})
 
@@ -44,7 +44,7 @@ module.exports = function(passport) {
 	});
 
 	router.post('/login', passport.authenticate('local', { 
-		successRedirect: '/initializeCart',
+		successRedirect: '/',
 	    failureRedirect: '/login'})
 	);
 

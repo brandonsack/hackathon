@@ -13,7 +13,7 @@ var workout = mongoose.Schema({
   	type: Array,
   	required: true
   },
-  equipment: String
+  equipment: Array
 });
 
 module.exports = mongoose.model('Workout', workout);
