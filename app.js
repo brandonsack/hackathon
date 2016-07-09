@@ -11,7 +11,6 @@ var LocalStrategy = require('passport-local');
 var FacebookStrategy = require('passport-facebook');
 var mongoose = require('mongoose')
 var MongoStore = require('connect-mongo/es5')(session);
-var findOrCreate = require('mongoose-findorcreate');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -65,9 +64,6 @@ passport.use(new LocalStrategy(
       if (user.password !== password) {
         return done(null, false, { message: 'Incorrect password.' });
       }
-      if (!user.verified) {
-        return done(null, false, { message: 'You are not a verified user'})
-      }
       return done(null, user);
     });
   }
@@ -86,7 +82,7 @@ passport.use(new FacebookStrategy({
   }
 ));
 
-app.use('/users', users(passport));
+app.use('/', users(passport));
 app.use('/', routes);
 
 // catch 404 and forward to error handler
