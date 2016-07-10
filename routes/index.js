@@ -55,7 +55,9 @@ router.post('/', function(req, res, next) {
 		for (var i = 0; i < arr.length; i++) {
 			var temp = _.shuffle(arr[i]);
 			for (var j = 0; j < sets; j++) {
+
 				var e = temp.pop();
+				console.log(e);
 				workout.push(e);
 				exerciseArray.push(e._id)
 			}
