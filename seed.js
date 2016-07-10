@@ -1,13 +1,13 @@
 var mongoose = require('mongoose')
 mongoose.connect(process.env.MONGODB_URI)
-var Exercise = require("../models/Exercise")
+var Exercise = require("./models/Exercise")
 
 //Barbell, dumbbell, cable, pull-up bar, bench, none
 
 var exercises = [
-	{name: "Barbell Shrug", equipment: "Barbell", muscles: "Traps"},
-	{name:"Dumbbell Shrug", equipment: "Dumbbell",muscles: "Traps"},
-	{name:"Cable Shrug", equipment: "Cable",muscles: "Traps"},
+	{name: "Barbell Shrug", equipment: "Barbell", muscles: "Trapezius"},
+	{name:"Dumbbell Shrug", equipment: "Dumbbell",muscles: "Trapezius"},
+	{name:"Cable Shrug", equipment: "Cable",muscles: "Trapezius"},
 	{name:"Chin-Up",equipment: "Pull-up Bar",muscles: "Lats"},
 	{name:"Cable Pushdown",equipment: "Cable",muscles: "Lats"},
 	{name:"Lat Pull-down",equipment: "Cable",muscles: "Lats"},
