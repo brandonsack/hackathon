@@ -18,6 +18,6 @@ var excercise = mongoose.Schema({
   image2: String
 });
 
-exercise.index({equipment: 1})
+// exercise.index({equipment: 1})
 
 module.exports = mongoose.model('Exercise', excercise);

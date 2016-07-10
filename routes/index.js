@@ -188,7 +188,7 @@ router.post('/browser', function(req, res, next) {
 		})
 		newWorkout.save(function(err) {
 			if (err) return next(err);
-			res.render('workout', {workout: workout, id: newWorkout._id, muscles: muscleArray, equipment: equipment, areWorkouts: workout.length});
+			res.render('workout', {workout: workout, id: newWorkout._id, muscles: muscleArray, equipment: equipment});
 		})
 	})
 })
