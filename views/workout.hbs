@@ -34,13 +34,10 @@
   	{{#each muscles}}
   	<input style="display:none;" name="{{this}}" value="on"></input>
   	{{/each}}
-  	<input style="display:none;" name="gym" value="on"></input>
-  	<h3>Your Equipment</h3>
-    <ul>
-      {{#each equipment}}
-    	 <li>{{this}}</li>
-    	{{/each}}
-    </ul>
+    <input id="break" class="check1" name="break" value="on" style="display:hidden;" />
+    {{#each equipment}}
+    <input style="display:none" name="{{this}}" value="on"></li>
+    {{/each}}
     <div class="container">
   	   <button class="button"><span class="btn-text">Redo</span></button>
     </div>

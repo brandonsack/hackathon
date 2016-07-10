@@ -26,15 +26,20 @@ router.get('/', function(req, res, next) {
 router.post('/', function(req, res, next) {
 
 	Exercise.find(function(err, exercises) {
-		console.log(req.body);
 		var muscleArray = [];
 		var equipment = [];
 		var exerciseArray = [];
+		var mToE = false;
 		for (var key in req.body) {
-			if (key === 'gym') {
+			if (key === 'break') {
+				mToE = true;
 				continue;
 			}
-			muscleArray.push(key)
+			if (mToE) {
+				equipment.push(key)
+			} else {
+				muscleArray.push(key)
+			}
 		}
 		if (err) return next(err)
 		var arr = [];
@@ -44,11 +49,7 @@ router.post('/', function(req, res, next) {
 		for (var i = 0; i < exercises.length; i++) {
 			for (var j = 0; j < muscleArray.length; j++) {
 				for (var k = 0; k < exercises[i].muscles.length; k++) {
-					var equip = exercises[i].equipment
-					if (equipment.indexOf(equip) < 0) {
-						equipment.push(equip)
-					}
-					if ((exercises[i].muscles[k] === muscleArray[j]) && (Object.hasOwnProperty.call(req.body, equip)|| Object.hasOwnProperty.call(req.body, 'gym'))) {
+					if ((exercises[i].muscles[k] === muscleArray[j]) && (Object.hasOwnProperty.call(req.body, exercises[i].equipment)|| Object.hasOwnProperty.call(req.body, 'gym'))) {
 						arr[j].push(exercises[i]);
 					}
 				}
@@ -61,9 +62,10 @@ router.post('/', function(req, res, next) {
 			var temp = _.shuffle(arr[i]);
 			for (var j = 0; j < sets; j++) {
 				var e = temp.pop();
-				console.log(e);
-				workout.push(e);
-				exerciseArray.push(e._id)
+				if (e) {
+					workout.push(e);
+					exerciseArray.push(e._id)
+				}
 			}
 		}
 		var newWorkout = Workout({
@@ -72,6 +74,7 @@ router.post('/', function(req, res, next) {
 			exercises: workout,
 			equipment: equipment
 		})
+		console.log(equipment)
 		newWorkout.save(function(err) {
 			if (err) return next(err);
 			res.render('workout', {workout: workout, id: newWorkout._id, muscles: muscleArray, equipment: equipment});
