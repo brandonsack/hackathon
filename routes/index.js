@@ -113,7 +113,7 @@ router.get('/savedWorkout', function(req, res, next) {
 	})
 })
 
-<<<<<<< HEAD
+
 router.post('/deleteWorkout', function(req, res, next) {
 	var updatedWorkouts = [];
 
@@ -136,7 +136,7 @@ router.post('/deleteWorkout', function(req, res, next) {
 	
 })
 
-=======
+
 router.post('/savedWorkout', function(req, res, next){
 	Workout.findById(req.query.workout, function(err, workout) {
 		workout.exercises
@@ -159,7 +159,7 @@ router.post('/savedWorkout', function(req, res, next){
 		});
 	});
 });
->>>>>>> 522acee2e31cbef4523440829f2b919a8ef4acb4
+
 
 router.get('/browser', function(req, res, next) {
 
