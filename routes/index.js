@@ -114,6 +114,28 @@ router.get('/savedWorkout', function(req, res, next) {
 	})
 })
 
+router.post('/savedWorkout', function(req, res, next){
+	Workout.findById(req.query.workout, function(err, workout) {
+		workout.exercises
+		var textBody = "Your workout for " + workout.name + ": ";
+		workout.exercises.forEach(function(exercise){
+					textBody += (exercise.name + ", ");
+		});
+		twilio.messages.create({
+			to: '+14149435013',
+			from: fromPhone,
+			body: textBody
+		}, function(err, message){
+			console.log('129', message)
+			res.render('savedWorkout', {
+				message: message,
+	      overall: workout,
+				workout: workout.exercises
+			});
+		});
+	});
+});
+
 router.get('/browser', function(req, res, next) {
 	Exercise.find(function(err, exercises) {
 		console.log(exercises);
