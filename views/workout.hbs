@@ -47,14 +47,16 @@
   	{{/each}}
     <input id="break" class="check1" name="break" value="on" style="display:hidden;" />
     {{#each equipment}}
-    <input style="display:none" name="{{this}}" value="on"></li>
+    <input style="display:none" name="{{this}}" value="on">
     {{/each}}
+    <input style="display:none" name="{{num}}" value="on">
     <div class="container">
   	   <button class="button"><span class="btn-text">Redo</span></button>
     </div>
   </form>
 </div>
 <script type="text/javascript">
+  console.log("{{equipment}}")
   {{#each workout}}
     document.getElementById('findAnother{{@index}}').addEventListener('click', function(){
       $.ajax({
@@ -62,7 +64,8 @@
         method: 'POST',
         data: {
           muscles: document.getElementById('muscles{{@index}}').innerHTML,
-          equipment: document.getElementById('equipment{{@index}}').innerHTML
+          equipment: "{{../equipment}}"
+          //document.getElementById('equipment{{@index}}').innerHTML
         },
         success: function(data) {
           document.getElementById('name{{@index}}').innerHTML = data.name
@@ -70,10 +73,6 @@
           document.getElementById('equipment{{@index}}').innerHTML = data.equipment
           document.getElementById('img1{{@index}}').src = data.image1
           document.getElementById('img2{{@index}}').src = data.image2
-          // var container = $('<div></div>')
-          // var workout = $('<tr><th class="th-head">'+data.name+'</th><th class="th-head">'+data.muscles+'</th><th class="th-head">'+data.equipment+'</th></tr>')
-          // container.append(workout)
-
         }
       })
     })

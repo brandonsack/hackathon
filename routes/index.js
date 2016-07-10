@@ -24,15 +24,24 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/', function(req, res, next) {
-
+	var numExers;
+	console.log(req.body)
 	Exercise.find(function(err, exercises) {
 		var muscleArray = [];
 		var equipment = [];
 		var exerciseArray = [];
 		var mToE = false;
+		// if (!req.body.muscles) {
+		// 	muscleArray.push("Quads")
+		// 	muscleArray.push("Hamstrings")
+		// }
 		for (var key in req.body) {
 			if (key === 'break') {
 				mToE = true;
+				continue;
+			}
+			if(parseInt(key)) {
+				numExers = parseInt(key)
 				continue;
 			}
 			if (mToE) {
@@ -56,11 +65,15 @@ router.post('/', function(req, res, next) {
 
 			}
 		}
-		var sets = 12 / muscleArray.length;
 		var workout = [];
+		if (!numExers) {
+			numExers = 3;
+		}
+		//arr.length is number of muscle groups
 		for (var i = 0; i < arr.length; i++) {
+			//sets is the number of exercises per muscle
 			var temp = _.shuffle(arr[i]);
-			for (var j = 0; j < sets; j++) {
+			for (var j = 0; j < numExers; j++) {
 				var e = temp.pop();
 				if (e) {
 					workout.push(e);
@@ -76,7 +89,7 @@ router.post('/', function(req, res, next) {
 		})
 		newWorkout.save(function(err) {
 			if (err) return next(err);
-			res.render('workout', {workout: workout, id: newWorkout._id, muscles: muscleArray, equipment: equipment, areWorkouts: workout.length});
+			res.render('workout', {workout: workout, id: newWorkout._id, muscles: muscleArray, equipment: equipment, areWorkouts: workout.length, num: numExers});
 		})
 	})
 });
@@ -188,18 +201,28 @@ router.post('/browser', function(req, res, next) {
 		})
 		newWorkout.save(function(err) {
 			if (err) return next(err);
-			res.render('workout', {workout: workout, id: newWorkout._id, muscles: muscleArray, equipment: equipment});
+			res.render('workout', {workout: workout, id: newWorkout._id, muscles: muscleArray, equipment: equipment, areWorkouts: workout.length});
 		})
 	})
 })
 
 router.post('/replace', function(req, res, next) {
-	Exercise.find({equipment: req.body.equipment, muscles: req.body.muscles}, function(err, exercises) {
+	var equipmentArray = req.body.equipment.split(",")
+	equipmentArray.push('Body Only')
+	if (equipmentArray === 'gym') {
+		Exercise.find({muscles: req.body.muscles}, function(err, exercises) {
+			if (err) console.log(err);
+			var exercise = exercises[Math.floor((Math.random() * exercises.length))]
+			res.send(exercise)
+		})
+	}
+	Exercise.find({muscles: req.body.muscles, equipment: {$in: equipmentArray}}, function(err, exercises) {
 		if (err) console.log(err);
+		console.log(exercises)
 		var exercise = exercises[Math.floor((Math.random() * exercises.length))]
-		console.log(exercise)
 		res.send(exercise)
 	})
+
 })
 
 module.exports = router;
