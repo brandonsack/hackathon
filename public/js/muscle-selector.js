@@ -11,7 +11,6 @@ document.querySelectorAll(".muscle-groups svg g g[id]").forEach(function(group) 
     let id = el.path[1].id.toLowerCase()
     if(!id) id = el.path[2].id.toLowerCase()
     let label = document.querySelectorAll("label[for=" + id + "]")[0]
-    console.log('LABEL', label);
     if (label.classList)
       label.classList.add("hover")
     else

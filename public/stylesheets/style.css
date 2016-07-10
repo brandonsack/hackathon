@@ -32,8 +32,16 @@ input:focus,
 input.focus {
   border-bottom: solid 2px #969696;
 }
+.site-header {
+  height: 20vh;
+  background: red;
+}
 .profile-view {
   min-width: 60vh;
+}
+.exercise-image {
+  max-height: 100px;
+  max-width: 100px;
 }
 .form-group {
   margin: 10px;

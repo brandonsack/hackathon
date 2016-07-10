@@ -53,189 +53,189 @@ var exercises2 = [
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/2001/Male/m/2001_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/2001/Male/m/2001_1.jpg",
     "name": "3/4 Sit-Up",
-    "muscles": "Abdominals",
+    "muscles": "Abs",
     "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/225/Male/m/225_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/225/Female/m/225_1.jpg",
     "name": "Ab Crunch Machine",
-    "muscles": "Abdominals",
+    "muscles": "Abs",
     "equipment": "Machine"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/110/Male/m/110_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/110/Female/m/110_1.jpg",
     "name": "Ab Roller",
-    "muscles": "Abdominals",
+    "muscles": "Abs",
     "equipment": "Other"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/502/Male/m/502_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/502/Female/m/502_1.jpg",
     "name": "Advanced Kettlebell Windmill",
-    "muscles": "Abdominals",
+    "muscles": "Abs",
     "equipment": "Kettlebells"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/209/Male/m/209_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/209/Female/m/209_1.jpg",
     "name": "Air Bike",
-    "muscles": "Abdominals",
+    "muscles": "Abs",
     "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/105/Male/m/105_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/105/Female/m/105_2.jpg",
     "name": "Alternate Heel Touchers",
-    "muscles": "Abdominals",
+    "muscles": "Abs",
     "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/207/Male/m/207_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/207/Female/m/207_1.jpg",
     "name": "Barbell Ab Rollout",
-    "muscles": "Abdominals",
+    "muscles": "Abs",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/206/Male/m/206_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/206/Female/m/206_1.jpg",
     "name": "Barbell Ab Rollout - On Knees",
-    "muscles": "Abdominals",
+    "muscles": "Abs",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1961/Male/m/1961_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1961/Male/m/1961_1.jpg",
     "name": "Barbell Rollout from Bench",
-    "muscles": "Abdominals",
+    "muscles": "Abs",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/87/Male/m/87_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/87/Female/m/87_1.jpg",
     "name": "Barbell Side Bend",
-    "muscles": "Abdominals",
+    "muscles": "Abs",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/196/Male/m/196_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/196/Female/m/196_1.jpg",
     "name": "Bent Press",
-    "muscles": "Abdominals",
+    "muscles": "Abs",
     "equipment": "Kettlebells"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/118/Male/m/118_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/118/Female/m/118_1.jpg",
     "name": "Bent-Knee Hip Raise",
-    "muscles": "Abdominals",
+    "muscles": "Abs",
     "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/932/Male/m/932_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/932/Female/m/932_1.jpg",
     "name": "Bosu Ball Cable Crunch With Side Bends",
-    "muscles": "Abdominals",
+    "muscles": "Abs",
     "equipment": "Cable"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3981/Male/m/3981_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3981/Female/m/3981_1.jpg",
     "name": "Bosu Ball Crunch",
-    "muscles": "Abdominals",
+    "muscles": "Abs",
     "equipment": "Exercise Ball"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/2021/Male/m/2021_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/2021/Male/m/2021_1.jpg",
     "name": "Bottoms Up",
-    "muscles": "Abdominals",
+    "muscles": "Abs",
     "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/2843/Male/m/2843_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/2843/Female/m/2843_1.jpg",
     "name": "Clam",
-    "muscles": "Abductors",
+    "muscles": "Adductors",
     "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3441/Male/m/3441_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3441/Female/m/3441_1.jpg",
     "name": "Fire Hydrant",
-    "muscles": "Abductors",
+    "muscles": "Adductors",
     "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3701/Male/m/3701_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3701/Male/m/3701_1.jpg",
     "name": "Hip Circle",
-    "muscles": "Abductors",
+    "muscles": "Adductors",
     "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/874/Male/m/874_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/874/Female/m/874_1.jpg",
     "name": "Hip Circles (prone)",
-    "muscles": "Abductors",
+    "muscles": "Adductors",
     "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/594/Male/m/594_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/594/Female/m/594_1.jpg",
     "name": "Iliotibial Tract-SMR",
-    "muscles": "Abductors",
+    "muscles": "Adductors",
     "equipment": "Foam Roll"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/598/Male/m/598_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/598/Female/m/598_1.jpg",
     "name": "IT Band and Glute Stretch",
-    "muscles": "Abductors",
+    "muscles": "Adductors",
     "equipment": "Other"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3721/Male/m/3721_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3721/Female/m/3721_1.jpg",
     "name": "Lateral Band Walk",
-    "muscles": "Abductors",
+    "muscles": "Adductors",
     "equipment": "Bands"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/604/Male/m/604_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/604/Female/m/604_1.jpg",
     "name": "Lying Crossover",
-    "muscles": "Abductors",
+    "muscles": "Adductors",
     "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/903/Male/m/903_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/903/Female/m/903_1.jpg",
     "name": "Monster Walk",
-    "muscles": "Abductors",
+    "muscles": "Adductors",
     "equipment": "Bands"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/873/Male/m/873_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/873/Female/m/873_1.jpg",
     "name": "Standing Hip Circles",
-    "muscles": "Abductors",
+    "muscles": "Adductors",
     "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/154/Male/m/154_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/154/Female/m/154_1.jpg",
     "name": "Thigh Abductor",
-    "muscles": "Abductors",
+    "muscles": "Adductors",
     "equipment": "Machine"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/631/Male/m/631_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/631/Female/m/631_1.jpg",
     "name": "Windmills",
-    "muscles": "Abductors",
+    "muscles": "Adductors",
     "equipment": "None"
   },
   {
@@ -767,105 +767,105 @@ var exercises2 = [
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/534/Male/m/534_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/534/Female/m/534_1.jpg",
     "name": "Alternating Floor Press",
-    "muscles": "Chest",
+    "muscles": "Pectorals",
     "equipment": "Kettlebells"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/277/Male/m/277_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/277/Female/m/277_1.jpg",
     "name": "Around The Worlds",
-    "muscles": "Chest",
+    "muscles": "Pectorals",
     "equipment": "Dumbbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/360/Male/m/360_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/360/Female/m/360_1.jpg",
     "name": "Barbell Bench Press - Medium Grip",
-    "muscles": "Chest",
+    "muscles": "Pectorals",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3301/Male/m/3301_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3301/Female/m/3301_1.jpg",
     "name": "Barbell Bench Press-Wide Grip",
-    "muscles": "Chest",
+    "muscles": "Pectorals",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/305/Male/m/305_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/305/Female/m/305_1.jpg",
     "name": "Barbell Guillotine Bench Press",
-    "muscles": "Chest",
+    "muscles": "Pectorals",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3311/Male/m/3311_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3311/Male/m/3311_1.jpg",
     "name": "Barbell Incline Bench Press Medium-Grip",
-    "muscles": "Chest",
+    "muscles": "Pectorals",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/582/Male/m/582_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/582/Female/m/582_1.jpg",
-    "name": "Behind Head Chest Stretch",
-    "muscles": "Chest",
+    "name": "Behind Head Pectorals Stretch",
+    "muscles": "Pectorals",
     "equipment": "Other"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/254/Male/m/254_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/254/Female/m/254_2.jpg",
     "name": "Bench Press - With Bands",
-    "muscles": "Chest",
+    "muscles": "Pectorals",
     "equipment": "Bands"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3321/Male/m/3321_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3321/Female/m/3321_1.jpg",
     "name": "Bench Press With Short Bands",
-    "muscles": "Chest",
+    "muscles": "Pectorals",
     "equipment": "Bands"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/40/Male/m/40_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/40/Female/m/40_1.jpg",
     "name": "Bent-Arm Dumbbell Pullover",
-    "muscles": "Chest",
+    "muscles": "Pectorals",
     "equipment": "Dumbbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1561/Male/m/1561_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1561/Male/m/1561_1.jpg",
     "name": "Bodyweight Flyes",
-    "muscles": "Chest",
+    "muscles": "Pectorals",
     "equipment": "E-Z Curl Bar"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3971/Male/m/3971_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3971/Female/m/3971_1.jpg",
     "name": "Bosu Ball Push-Up",
-    "muscles": "Chest",
+    "muscles": "Pectorals",
     "equipment": "Exercise Ball"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/214/Male/m/214_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/214/Female/m/214_1.jpg",
     "name": "Butterfly",
-    "muscles": "Chest",
+    "muscles": "Pectorals",
     "equipment": "Machine"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/870/Male/m/870_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/870/Female/m/870_1.jpg",
-    "name": "Cable Chest Press",
-    "muscles": "Chest",
+    "name": "Cable Pectorals Press",
+    "muscles": "Pectorals",
     "equipment": "Cable"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/132/Male/m/132_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/132/Female/m/132_1.jpg",
     "name": "Cable Crossover",
-    "muscles": "Chest",
+    "muscles": "Pectorals",
     "equipment": "Cable"
   },
   {
@@ -974,219 +974,114 @@ var exercises2 = [
     "equipment": "Body Only"
   },
   {
-    "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/727/Male/m/727_1.jpg",
-    "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/727/Male/m/727_1.jpg",
-    "name": "Atlas Stone Trainer",
-    "muscles": "Lower Back",
-    "equipment": "Other"
-  },
-  {
-    "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/659/Male/m/659_1.jpg",
-    "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/659/Male/m/659_1.jpg",
-    "name": "Atlas Stones",
-    "muscles": "Lower Back",
-    "equipment": "Other"
-  },
-  {
-    "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/750/Male/m/750_1.jpg",
-    "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/750/Female/m/750_1.jpg",
-    "name": "Axle Deadlift",
-    "muscles": "Lower Back",
-    "equipment": "Other"
-  },
-  {
-    "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/392/Male/m/392_1.jpg",
-    "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/392/Female/m/392_1.jpg",
-    "name": "Cat Stretch",
-    "muscles": "Lower Back",
-    "equipment": "None"
-  },
-  {
-    "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/426/Male/m/426_1.jpg",
-    "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/426/Female/m/426_1.jpg",
-    "name": "Child's Pose",
-    "muscles": "Lower Back",
-    "equipment": "None"
-  },
-  {
-    "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/585/Male/m/585_1.jpg",
-    "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/585/Female/m/585_1.jpg",
-    "name": "Crossover Reverse Lunge",
-    "muscles": "Lower Back",
-    "equipment": "None"
-  },
-  {
-    "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/427/Male/m/427_1.jpg",
-    "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/427/Female/m/427_1.jpg",
-    "name": "Dancer's Stretch",
-    "muscles": "Lower Back",
-    "equipment": "None"
-  },
-  {
-    "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/677/Male/m/677_1.jpg",
-    "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/677/Female/m/677_1.jpg",
-    "name": "Deadlift with Bands",
-    "muscles": "Lower Back",
-    "equipment": "Barbell"
-  },
-  {
-    "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/678/Male/m/678_1.jpg",
-    "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/678/Female/m/678_1.jpg",
-    "name": "Deadlift with Chains",
-    "muscles": "Lower Back",
-    "equipment": "Barbell"
-  },
-  {
-    "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/679/Male/m/679_1.jpg",
-    "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/679/Female/m/679_1.jpg",
-    "name": "Deficit Deadlift",
-    "muscles": "Lower Back",
-    "equipment": "Barbell"
-  },
-  {
-    "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/424/Male/m/424_1.jpg",
-    "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/424/Female/m/424_1.jpg",
-    "name": "Hug A Ball",
-    "muscles": "Lower Back",
-    "equipment": "Exercise Ball"
-  },
-  {
-    "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/398/Male/m/398_1.jpg",
-    "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/398/Female/m/398_1.jpg",
-    "name": "Hug Knees To Chest",
-    "muscles": "Lower Back",
-    "equipment": "None"
-  },
-  {
-    "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/47/Male/m/47_1.jpg",
-    "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/47/Female/m/47_1.jpg",
-    "name": "Hyperextensions (Back Extensions)",
-    "muscles": "Lower Back",
-    "equipment": "Other"
-  },
-  {
-    "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/24/Male/m/24_1.jpg",
-    "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/24/Female/m/24_1.jpg",
-    "name": "Hyperextensions With No Hyperextension Bench",
-    "muscles": "Lower Back",
-    "equipment": "Body Only"
-  },
-  {
-    "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/696/Male/m/696_1.jpg",
-    "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/696/Female/m/696_1.jpg",
-    "name": "Keg Load",
-    "muscles": "Lower Back",
-    "equipment": "Other"
-  },
-  {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/505/Male/m/505_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/505/Female/m/505_1.jpg",
     "name": "Alternating Kettlebell Row",
-    "muscles": "Middle Back",
+    "muscles": "Trapezius",
     "equipment": "Kettlebells"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/506/Male/m/506_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/506/Female/m/506_1.jpg",
     "name": "Alternating Renegade Row",
-    "muscles": "Middle Back",
+    "muscles": "Trapezius",
     "equipment": "Kettlebells"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/20/Male/m/20_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/20/Female/m/20_1.jpg",
     "name": "Bent Over Barbell Row",
-    "muscles": "Middle Back",
+    "muscles": "Trapezius",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/19/Male/m/19_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/19/Female/m/19_1.jpg",
     "name": "Bent Over One-Arm Long Bar Row",
-    "muscles": "Middle Back",
+    "muscles": "Trapezius",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/18/Male/m/18_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/18/Female/m/18_1.jpg",
     "name": "Bent Over Two-Arm Long Bar Row",
-    "muscles": "Middle Back",
+    "muscles": "Trapezius",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/16/Male/m/16_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/16/Female/m/16_1.jpg",
     "name": "Bent Over Two-Dumbbell Row",
-    "muscles": "Middle Back",
+    "muscles": "Trapezius",
     "equipment": "Dumbbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/17/Male/m/17_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/17/Female/m/17_1.jpg",
     "name": "Bent Over Two-Dumbbell Row With Palms In",
-    "muscles": "Middle Back",
+    "muscles": "Trapezius",
     "equipment": "Dumbbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1911/Male/m/1911_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1911/Male/m/1911_1.jpg",
     "name": "Bodyweight Mid Row",
-    "muscles": "Middle Back",
+    "muscles": "Trapezius",
     "equipment": "Other"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1311/Male/m/1311_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1311/Male/m/1311_1.jpg",
     "name": "Dumbbell Incline Row",
-    "muscles": "Middle Back",
+    "muscles": "Trapezius",
     "equipment": "Dumbbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/278/Male/m/278_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/278/Female/m/278_1.jpg",
     "name": "Incline Bench Pull",
-    "muscles": "Middle Back",
+    "muscles": "Trapezius",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/879/Male/m/879_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/879/Female/m/879_1.jpg",
     "name": "Inverted Row",
-    "muscles": "Middle Back",
+    "muscles": "Trapezius",
     "equipment": "None"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/886/Male/m/886_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/886/Female/m/886_1.jpg",
     "name": "Inverted Row with Straps",
-    "muscles": "Middle Back",
+    "muscles": "Trapezius",
     "equipment": "Other"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/892/Male/m/892_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/892/Female/m/892_1.jpg",
     "name": "Leverage High Row",
-    "muscles": "Middle Back",
+    "muscles": "Trapezius",
     "equipment": "Machine"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/302/Male/m/302_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/302/Female/m/302_1.jpg",
     "name": "Lying Cambered Barbell Row",
-    "muscles": "Middle Back",
+    "muscles": "Trapezius",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/137/Male/m/137_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/137/Female/m/137_1.jpg",
     "name": "Lying T-Bar Row",
-    "muscles": "Middle Back",
+    "muscles": "Trapezius",
     "equipment": "Machine"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/467/Male/m/467_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/467/Female/m/467_1.jpg",
-    "name": "Chin To Chest Stretch",
+    "name": "Chin To Pectorals Stretch",
     "muscles": "Neck",
     "equipment": "None"
   },
@@ -1250,210 +1145,210 @@ var exercises2 = [
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1781/Male/m/1781_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1781/Male/m/1781_1.jpg",
     "name": "Alternating Cable Shoulder Press",
-    "muscles": "Shoulders",
+    "muscles": "Deltoids",
     "equipment": "Cable"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/880/Male/m/880_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/880/Female/m/880_1.jpg",
     "name": "Alternating Deltoid Raise",
-    "muscles": "Shoulders",
+    "muscles": "Deltoids",
     "equipment": "Dumbbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/504/Male/m/504_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/504/Female/m/504_1.jpg",
     "name": "Alternating Kettlebell Press",
-    "muscles": "Shoulders",
+    "muscles": "Deltoids",
     "equipment": "Kettlebells"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1811/Male/m/1811_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1811/Male/m/1811_1.jpg",
     "name": "Anti-Gravity Press",
-    "muscles": "Shoulders",
+    "muscles": "Deltoids",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/497/Male/m/497_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/497/Female/m/497_1.jpg",
     "name": "Arm Circles",
-    "muscles": "Shoulders",
+    "muscles": "Deltoids",
     "equipment": "None"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/82/Male/m/82_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/82/Female/m/82_1.jpg",
     "name": "Arnold Dumbbell Press",
-    "muscles": "Shoulders",
+    "muscles": "Deltoids",
     "equipment": "Dumbbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3203/Male/m/3203_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3203/Female/m/3203_1.jpg",
     "name": "Axle Clean And Press",
-    "muscles": "Shoulders",
+    "muscles": "Deltoids",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/253/Male/m/253_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/253/Female/m/253_1.jpg",
     "name": "Back Flyes - With Bands",
-    "muscles": "Shoulders",
+    "muscles": "Deltoids",
     "equipment": "Bands"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/764/Male/m/764_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/764/Female/m/764_1.jpg",
     "name": "Backward Medicine Ball Throw",
-    "muscles": "Shoulders",
+    "muscles": "Deltoids",
     "equipment": "Medicine Ball"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1351/Male/m/1351_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1351/Female/m/1351_1.jpg",
     "name": "Band Pull Apart",
-    "muscles": "Shoulders",
+    "muscles": "Deltoids",
     "equipment": "Bands"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3741/Male/m/3741_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3741/Female/m/3741_1.jpg",
     "name": "Barbell Front Raise",
-    "muscles": "Shoulders",
+    "muscles": "Deltoids",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/306/Male/m/306_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/306/Female/m/306_1.jpg",
     "name": "Barbell Incline Shoulder Raise",
-    "muscles": "Shoulders",
+    "muscles": "Deltoids",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/307/Male/m/307_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/307/Female/m/307_1.jpg",
     "name": "Barbell Rear Delt Row",
-    "muscles": "Shoulders",
+    "muscles": "Deltoids",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/308/Male/m/308_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/308/Female/m/308_1.jpg",
     "name": "Barbell Shoulder Press",
-    "muscles": "Shoulders",
+    "muscles": "Deltoids",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1711/Male/m/1711_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1711/Male/m/1711_1.jpg",
     "name": "Battling Ropes",
-    "muscles": "Shoulders",
+    "muscles": "Deltoids",
     "equipment": "Other"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/4541/Male/m/4541_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/4541/Female/m/4541_1.jpg",
     "name": "Alien Squat",
-    "muscles": "Quadriceps",
+    "muscles": "Quads",
     "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/581/Male/m/581_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/581/Female/m/581_1.jpg",
     "name": "All Fours Quad Stretch",
-    "muscles": "Quadriceps",
+    "muscles": "Quads",
     "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/760/Male/m/760_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/760/Female/m/760_1.jpg",
     "name": "Alternate Leg Diagonal Bound",
-    "muscles": "Quadriceps",
+    "muscles": "Quads",
     "equipment": "None"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/728/Male/m/728_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/728/Female/m/728_1.jpg",
     "name": "Backward Drag",
-    "muscles": "Quadriceps",
+    "muscles": "Quads",
     "equipment": "Other"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/64/Male/m/64_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/64/Female/m/64_1.jpg",
     "name": "Barbell Full Squat",
-    "muscles": "Quadriceps",
+    "muscles": "Quads",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/84/Male/m/84_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/84/Female/m/84_1.jpg",
     "name": "Barbell Hack Squat",
-    "muscles": "Quadriceps",
+    "muscles": "Quads",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/41/Male/m/41_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/41/Female/m/41_1.jpg",
     "name": "Barbell Lunge",
-    "muscles": "Quadriceps",
+    "muscles": "Quads",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/4361/Male/m/4361_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/4361/Female/m/4361_1.jpg",
     "name": "Barbell Reverse Lunge",
-    "muscles": "Quadriceps",
+    "muscles": "Quads",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/310/Male/m/310_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/310/Female/m/310_1.jpg",
     "name": "Barbell Side Split Squat",
-    "muscles": "Quadriceps",
+    "muscles": "Quads",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3861/Male/m/3861_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3861/Female/m/3861_1.jpg",
     "name": "Barbell Squat",
-    "muscles": "Quadriceps",
+    "muscles": "Quads",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/58/Male/m/58_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/58/Female/m/58_1.jpg",
     "name": "Barbell Squat To A Bench",
-    "muscles": "Quadriceps",
+    "muscles": "Quads",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3871/Male/m/3871_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3871/Female/m/3871_1.jpg",
     "name": "Barbell Squat To A Box",
-    "muscles": "Quadriceps",
+    "muscles": "Quads",
     "equipment": "Other"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/62/Male/m/62_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/62/Female/m/62_1.jpg",
     "name": "Barbell Step Ups",
-    "muscles": "Quadriceps",
+    "muscles": "Quads",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/4231/Male/m/4231_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/4231/Female/m/4231_1.jpg",
     "name": "Barbell Thruster",
-    "muscles": "Quadriceps",
+    "muscles": "Quads",
     "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/2241/Male/m/2241_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/2241/Female/m/2241_1.jpg",
     "name": "Barbell Walking Lunge",
-    "muscles": "Quadriceps",
+    "muscles": "Quads",
     "equipment": "Barbell"
   },
   {
