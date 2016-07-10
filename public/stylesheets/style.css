@@ -247,8 +247,6 @@ html {
   /*font-family: 'Lato', sans-serif;*/
   font-weight: 300;
   font-family: Roboto;
-  height: 100%;
-  min-height: 100vh;
 }
 
 main {
