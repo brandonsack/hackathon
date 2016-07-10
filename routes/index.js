@@ -153,6 +153,15 @@ router.post('/browser', function(req, res, next) {
 
 })
 
+router.post('/replace', function(req, res, next) {
+	Exercise.find({equipment: req.body.equipment, muscles: req.body.muscles}, function(err, exercises) {
+		if (err) console.log(err);
+		var exercise = exercises[Math.floor((Math.random() * exercises.length))]
+		console.log(exercise)
+		res.send(exercise)
+	})
+})
+
 //TWILIO SET UP for basic functionality
 router.get('/profile/send', function(req, res, next){
 	//from JACK's TWILIO ACCOUNT. CAN ONLY SEND TO HIS NUMBER

@@ -12,11 +12,12 @@
       </tr>
       {{#each workout}}
       <tr>
-        <td>{{name}}</td>
-        <td>{{muscles}}</td>
-        <td>{{equipment}}</td>
-        <td><img class="exercise-image" src={{image1}}></img></td>
-        <td><img class="exercise-image" src={{image2}}></img></td>
+        <td id="name{{@index}}">{{name}}</td>
+        <td id="muscles{{@index}}">{{muscles}}</td>
+        <td id="equipment{{@index}}">{{equipment}}</td>
+        <td><img class="exercise-image" src={{image1}} id="img1{{@index}}"></img></td>
+        <td><img class="exercise-image" src={{image2}} id="img2{{@index}}"></img></td>
+        <td><button id="findAnother{{@index}}"></button></td>
       </tr>
     {{/each}}
   </table>
@@ -47,3 +48,28 @@
     </div>
   </form>
 </div>
+<script type="text/javascript">
+  {{#each workout}}
+    document.getElementById('findAnother{{@index}}').addEventListener('click', function(){
+      $.ajax({
+        url: '/replace',
+        method: 'POST',
+        data: {
+          muscles: document.getElementById('muscles{{@index}}').innerHTML,
+          equipment: document.getElementById('equipment{{@index}}').innerHTML
+        },
+        success: function(data) {
+          document.getElementById('name{{@index}}').innerHTML = data.name
+          document.getElementById('muscles{{@index}}').innerHTML = data.muscles
+          document.getElementById('equipment{{@index}}').innerHTML = data.equipment
+          document.getElementById('img1{{@index}}').src = data.image1
+          document.getElementById('img2{{@index}}').src = data.image2
+          // var container = $('<div></div>')
+          // var workout = $('<tr><th class="th-head">'+data.name+'</th><th class="th-head">'+data.muscles+'</th><th class="th-head">'+data.equipment+'</th></tr>')
+          // container.append(workout)
+
+        }
+      })
+    })
+  {{/each}}
+</script>
