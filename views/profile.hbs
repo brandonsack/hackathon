@@ -12,6 +12,10 @@
 		<form method="GET" action="/savedWorkout">
 			<input style="display:none;" name="workout" value="{{_id}}"></input>
 			<button class="button profile-view"><span class="btn-text">{{name}}</span></button>
+
+		</form>
+		<form method="POST" action="/deleteWorkout">
+			<button name="id" value="{{_id}}">X</button>
 		</form>
 	{{/each}}
 </div>
