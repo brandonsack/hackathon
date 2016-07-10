@@ -209,7 +209,7 @@ router.post('/browser', function(req, res, next) {
 router.post('/replace', function(req, res, next) {
 	var equipmentArray = req.body.equipment.split(",")
 	equipmentArray.push('Body Only')
-	if (equipmentArray === 'gym') {
+	if (equipmentArray.indexOf('gym') > -1) {
 		Exercise.find({muscles: req.body.muscles}, function(err, exercises) {
 			if (err) console.log(err);
 			var exercise = exercises[Math.floor((Math.random() * exercises.length))]
