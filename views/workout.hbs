@@ -1,4 +1,6 @@
-<a href='/profile'> Profile </a>
+<div class="container">
+  <a href='/profile' class="button"><span class="btn-text">Back to Your Profile</span></a>
+</div>
 <div>
   <h1 class="table-title">Your Personal Workout</h1>
   <table class="table-wrap">
@@ -16,23 +18,29 @@
     {{/each}}
   </table>
 </div>
-
-<form method="POST" action="/save">
-	
-  <div class="form-group">
-    
-    <input type="text" name="workoutName" class="form-control" id="workoutName" placeholder="Workout Name">
-  </div>
-	<input style="display:none;" name="workout" value="{{id}}"></input>
-	<button>Save</button>
-</form>
-<form method="POST">
-	{{#each muscles}}
-	<input style="display:none;" name="{{this}}" value="on"></input>
-	{{/each}}
-	<input style="display:none;" name="gym" value="on"></input>
-	{{#each equipment}}
-	this needs to be changed when we add other equip choices
-	{{/each}}
-	<button>Redo</button>
-</form>
+<div class="container">
+  <form method="POST" action="/save">
+    <div class="form-group">
+      <input type="text" name="workoutName" class="form-control" id="workoutName" placeholder="Workout Name">
+      <input style="display:none;" name="workout" value="{{id}}"></input>
+    	<button class="button"><span class="btn-text">Save</span></button>
+    </div>
+  </form>
+</div>
+<div class="container">
+  <form method="POST">
+  	{{#each muscles}}
+  	<input style="display:none;" name="{{this}}" value="on"></input>
+  	{{/each}}
+  	<input style="display:none;" name="gym" value="on"></input>
+  	<h3>Your Equipment</h3>
+    <ul>
+      {{#each equipment}}
+    	 <li>{{this}}</li>
+    	{{/each}}
+    </ul>
+    <div class="container">
+  	   <button class="button"><span class="btn-text">Redo</span></button>
+    </div>
+  </form>
+</div>
