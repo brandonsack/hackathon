@@ -103,4 +103,11 @@ router.get('/savedWorkout', function(req, res, next) {
 		})
 	})
 })
+
+router.get('/browser', function(req, res, next) {
+	Exercise.find(function(err, exercises) {
+		console.log(exercises);
+		res.render('browser', {exercises: exercises});
+	})
+})
 module.exports = router;
