@@ -9,13 +9,18 @@
 	<br>
 	<h2>Your Workouts</h2>
 	{{# each user.workouts}}
+	<div class="container">
 		<form method="GET" action="/savedWorkout">
 			<input style="display:none;" name="workout" value="{{_id}}"></input>
 			<button class="button profile-view"><span class="btn-text">{{name}}</span></button>
-
 		</form>
 		<form method="POST" action="/deleteWorkout">
-			<button name="id" value="{{_id}}">X</button>
+			<button class="button" name="id" value="{{_id}}">
+				<span class="btn-text">
+					<i class="fa fa-trash" aria-hidden="true"></i>
+				</span>
+			</button>
 		</form>
+	</div>
 	{{/each}}
 </div>
