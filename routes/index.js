@@ -151,7 +151,7 @@ router.post('/browser', function(req, res, next) {
 
 })
 
-
+//TWILIO SET UP for basic functionality
 router.get('/profile/send', function(req, res, next){
 	//from JACK's TWILIO ACCOUNT. CAN ONLY SEND TO HIS NUMBER
 	twilio.messages.create({
