@@ -11,7 +11,7 @@ var workout = mongoose.Schema({
   },
   exercises: {
   	type: Array,
-  	required: true
+  	required: false
   },
   equipment: Array
 });

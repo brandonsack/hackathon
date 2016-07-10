@@ -49,7 +49,7 @@ router.post('/', function(req, res, next) {
 		for (var i = 0; i < exercises.length; i++) {
 			for (var j = 0; j < muscleArray.length; j++) {
 				for (var k = 0; k < exercises[i].muscles.length; k++) {
-					if ((exercises[i].muscles[k] === muscleArray[j]) && (Object.hasOwnProperty.call(req.body, exercises[i].equipment)|| Object.hasOwnProperty.call(req.body, 'gym'))) {
+					if ((exercises[i].muscles[k] === muscleArray[j]) && (Object.hasOwnProperty.call(req.body, exercises[i].equipment)|| Object.hasOwnProperty.call(req.body, 'gym') || exercises[i].equipment === 'Body Only')) {
 						arr[j].push(exercises[i]);
 					}
 				}
@@ -74,10 +74,9 @@ router.post('/', function(req, res, next) {
 			exercises: workout,
 			equipment: equipment
 		})
-		console.log(equipment)
 		newWorkout.save(function(err) {
 			if (err) return next(err);
-			res.render('workout', {workout: workout, id: newWorkout._id, muscles: muscleArray, equipment: equipment});
+			res.render('workout', {workout: workout, id: newWorkout._id, muscles: muscleArray, equipment: equipment, areWorkouts: workout.length});
 		})
 	})
 });
