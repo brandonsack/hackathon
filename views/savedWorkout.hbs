@@ -1,9 +1,30 @@
-<h1>Workout</h1>
-<a href='/profile'> Profile </a>
-{{#each workout}}
-	<div>
-	{{name}}
-	{{muscles}}
-	{{equipment}}
-	</div>
-{{/each}}
+<div class="container">
+  <a href='/profile' class="button"><span class="btn-text">Back to Your Profile</span></a>
+</div>
+<div>
+  <h1 class="table-title">{{overall.name}}</h1>
+  <table class="table-wrap">
+    <tr>
+      <th class="th-head">Name</th>
+      <th class="th-head">Muscles</th>
+      <th class="th-head">Equipment</th>
+    </tr>
+    {{#each workout}}
+    	<tr>
+      	<td>{{name}}</td>
+      	<td>{{muscles}}</td>
+      	<td>{{equipment}}</td>
+      </tr>
+    {{/each}}
+  </table>
+</div>
+<div class="container">
+	<h2>Equipment For This Workout</h2>
+</div>
+<div class="container">
+	<ul>
+		{{#each overall.equipment}}
+			<li>{{this}}</li>
+		{{/each}}
+	</ul>
+</div>

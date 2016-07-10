@@ -32,12 +32,20 @@ input:focus,
 input.focus {
   border-bottom: solid 2px #969696;
 }
+.profile-view {
+  min-width: 60vh;
+}
 .form-group {
   margin: 10px;
 }
 .user-form {
   font-size: 30px;
   padding-right: 15px;
+}
+.list-head {
+  text-align: left;
+  font-size: 24px;
+  padding-right: 10px;
 }
 .myButton {
   margin: 10px;

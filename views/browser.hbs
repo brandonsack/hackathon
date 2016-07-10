@@ -1,8 +1,14 @@
-<h1>Browse Exercises</h1>
-
+<div class="container">
+	<h1>Browse Exercises</h1>
+</div>
 <div class="container">
 	<form method="POST" action="/browser">
 			<table>
+				<tr>
+					<th class="list-head">Name</th>
+					<th class="list-head">Muscles</th>
+					<th class="list-head">Equipment</th>
+				</tr>
 			{{#each exercises}}
 				<tr>
 				  <td>
@@ -14,9 +20,9 @@
 				</tr>
 			{{/each}}
 		<tr>
-		<td>
-			<button class="button"><span class="btn-text">Create Excercise</span></button>
-		</td>
+			<td>
+				<button class="button"><span class="btn-text">Create Exercise</span></button>
+			</td>
 		</tr>
 	</table>
 	</form>

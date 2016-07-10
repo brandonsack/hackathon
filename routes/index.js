@@ -19,7 +19,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/', function(req, res, next) {
-	
+
 	Exercise.find(function(err, exercises) {
 		console.log(req.body);
 		var muscleArray = [];
@@ -101,7 +101,7 @@ router.get('/savedWorkout', function(req, res, next) {
 		console.log(workout);
 		workout.exercises
 		res.render('savedWorkout', {
-
+      overall: workout,
 			workout: workout.exercises
 		})
 	})
