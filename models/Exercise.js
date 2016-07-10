@@ -13,7 +13,9 @@ var excercise = mongoose.Schema({
   muscles: {
     type: Array,
     required: true
-  }
+  },
+  image1: String,
+  image2: String
 });
 
 module.exports = mongoose.model('Exercise', excercise);
