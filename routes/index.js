@@ -49,7 +49,7 @@ router.post('/', function(req, res, next) {
 		for (var i = 0; i < exercises.length; i++) {
 			for (var j = 0; j < muscleArray.length; j++) {
 				for (var k = 0; k < exercises[i].muscles.length; k++) {
-					if ((exercises[i].muscles[k] === muscleArray[j]) && (Object.hasOwnProperty.call(req.body, exercises[i].equipment)|| Object.hasOwnProperty.call(req.body, 'gym'))) {
+					if ((exercises[i].muscles[k] === muscleArray[j]) && (Object.hasOwnProperty.call(req.body, exercises[i].equipment)|| Object.hasOwnProperty.call(req.body, 'gym') || exercises[i].equipment === 'Body Only')) {
 						arr[j].push(exercises[i]);
 					}
 				}
@@ -74,10 +74,9 @@ router.post('/', function(req, res, next) {
 			exercises: workout,
 			equipment: equipment
 		})
-		console.log(equipment)
 		newWorkout.save(function(err) {
 			if (err) return next(err);
-			res.render('workout', {workout: workout, id: newWorkout._id, muscles: muscleArray, equipment: equipment});
+			res.render('workout', {workout: workout, id: newWorkout._id, muscles: muscleArray, equipment: equipment, areWorkouts: workout.length});
 		})
 	})
 });
@@ -114,6 +113,7 @@ router.get('/savedWorkout', function(req, res, next) {
 	})
 })
 
+<<<<<<< HEAD
 router.post('/deleteWorkout', function(req, res, next) {
 	var updatedWorkouts = [];
 
@@ -136,6 +136,30 @@ router.post('/deleteWorkout', function(req, res, next) {
 	
 })
 
+=======
+router.post('/savedWorkout', function(req, res, next){
+	Workout.findById(req.query.workout, function(err, workout) {
+		workout.exercises
+		var textBody = "Your workout for " + workout.name + ": ";
+		workout.exercises.forEach(function(exercise){
+					textBody += (exercise.name + ", ");
+		});
+		textBody = textBody.substring(0, textBody.length()-1);
+		twilio.messages.create({
+			to: '+14149435013',
+			from: fromPhone,
+			body: textBody
+		}, function(err, message){
+			console.log('129', message)
+			res.render('savedWorkout', {
+				message: message,
+	      overall: workout,
+				workout: workout.exercises
+			});
+		});
+	});
+});
+>>>>>>> 522acee2e31cbef4523440829f2b919a8ef4acb4
 
 router.get('/browser', function(req, res, next) {
 
@@ -175,18 +199,6 @@ router.post('/browser', function(req, res, next) {
 			res.render('workout', {workout: workout, id: newWorkout._id, muscles: muscleArray, equipment: equipment});
 		})
 	})
-
 })
 
-//TWILIO SET UP for basic functionality
-router.get('/profile/send', function(req, res, next){
-	//from JACK's TWILIO ACCOUNT. CAN ONLY SEND TO HIS NUMBER
-	twilio.messages.create({
-		to: '+14149435013',
-		from: fromPhone,
-		body: 'TEST'
-	}, function(err, message){
-		console.log(message);
-	})
-})
 module.exports = router;

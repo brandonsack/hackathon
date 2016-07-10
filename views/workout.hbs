@@ -3,22 +3,26 @@
 </div>
 <div>
   <h1 class="table-title">Your Personal Workout</h1>
+  {{#if areWorkouts}}
   <table class="table-wrap">
-    <tr>
-      <th class="th-head">Name</th>
-      <th class="th-head">Muscles</th>
-      <th class="th-head">Equipment</th>
-    </tr>
-    {{#each workout}}
-    	<tr>
-      	<td>{{name}}</td>
-      	<td>{{muscles}}</td>
-      	<td>{{equipment}}</td>
+      <tr>
+        <th class="th-head">Name</th>
+        <th class="th-head">Muscles</th>
+        <th class="th-head">Equipment</th>
+      </tr>
+      {{#each workout}}
+      <tr>
+        <td>{{name}}</td>
+        <td>{{muscles}}</td>
+        <td>{{equipment}}</td>
         <td><img class="exercise-image" src={{image1}}></img></td>
         <td><img class="exercise-image" src={{image2}}></img></td>
       </tr>
     {{/each}}
   </table>
+  {{else}}
+      <div style="display:inline"><h2 style="width: 50%">Whoops! Couldn't find any workouts with these specifications, please </h2><a href='/' style="font-size:1.5em">try again</a></div>
+  {{/if}}
 </div>
 <div class="container">
   <form method="POST" action="/save">
