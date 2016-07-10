@@ -144,13 +144,12 @@ router.post('/savedWorkout', function(req, res, next){
 		workout.exercises.forEach(function(exercise){
 					textBody += (exercise.name + ", ");
 		});
-		textBody = textBody.substring(0, textBody.length()-1);
+		var str = textBody.substring(0, textBody.length-2);
 		twilio.messages.create({
 			to: '+14149435013',
 			from: fromPhone,
-			body: textBody
+			body: str
 		}, function(err, message){
-			console.log('129', message)
 			res.render('savedWorkout', {
 				message: message,
 	      overall: workout,
