@@ -114,7 +114,31 @@ router.get('/savedWorkout', function(req, res, next) {
 	})
 })
 
+router.post('/deleteWorkout', function(req, res, next) {
+	var updatedWorkouts = [];
+
+	for (var i = 0; i < req.user.workouts.length; i++) {
+		console.log(req.user.workouts[i]._id, req.body.id)
+		if (JSON.stringify(req.user.workouts[i]._id) !== JSON.stringify(req.body.id)) {
+			updatedWorkouts.push(req.user.workouts[i]);
+		} else console.log("deleted");
+	}
+	console.log(updatedWorkouts);
+	User.findById(req.user.id, function(err, user) {
+		user.workouts = updatedWorkouts;
+		user.save(function(err) {
+			if (err) console.log(err);
+			res.redirect('/profile')
+		})
+	})
+	
+	
+	
+})
+
+
 router.get('/browser', function(req, res, next) {
+
 	Exercise.find(function(err, exercises) {
 		console.log(exercises);
 		res.render('browser', {exercises: exercises});
@@ -122,7 +146,7 @@ router.get('/browser', function(req, res, next) {
 })
 
 router.post('/browser', function(req, res, next) {
-	console.log(req.body);
+	
 	Exercise.find(function(err, exercises) {
 		var workout = [];
 		var muscleArray = [];
