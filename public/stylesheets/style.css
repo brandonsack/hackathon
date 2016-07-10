@@ -9,13 +9,14 @@ input.focus {
   border-bottom: solid 2px #969696;
 }
 .form-group {
-  margin: 20px;
+  margin: 10px;
 }
 .user-form {
   font-size: 30px;
   padding-right: 15px;
 }
 .myButton {
+  margin: 10px;
 	-moz-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
 	box-shadow:inset 0px 1px 0px 0px #7a8eb9;
