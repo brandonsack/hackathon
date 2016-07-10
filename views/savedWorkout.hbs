@@ -1,6 +1,20 @@
 <div class="container">
   <a href='/profile' class="button"><span class="btn-text">Back to Your Profile</span></a>
 </div>
+<div class="container">
+  <form method="POST">
+	   <button type="submit" class="button">
+       <span class="btn-text">
+         Text Me Workout
+      </span>
+    </button>
+  </form>
+</div>
+{{#if message}}
+<div class="container">
+  <h1>Message has been sent to {{message.to}}</h1>
+</div>
+{{/if}}
 <div>
   <h1 class="table-title">{{overall.name}}</h1>
   <table class="table-wrap">
@@ -19,14 +33,4 @@
       </tr>
     {{/each}}
   </table>
-</div>
-<div class="container">
-	<h2 style="display:none">Equipment For This Workout</h2>
-</div>
-<div class="container" style="display:none">
-	<ul>
-		{{#each overall.equipment}}
-			<li>{{this}}</li>
-		{{/each}}
-	</ul>
 </div>
