@@ -1,8 +1,15 @@
 <h1>Browse Exercises</h1>
-{{#each exercises}}
-	<div>
-	{{name}}
-	{{muscles}}
-	{{equipment}}
-	</div>
-{{/each}}
+<form method="POST" action="/browser">
+	
+	{{#each exercises}}
+		<div>
+		<label class="checkbox-inline">
+	  		<input type="checkbox" name="{{name}}" value="on"> {{name}}
+		</label>
+		
+		{{muscles}}
+		{{equipment}}
+		</div>
+	{{/each}}
+	<button> Create Excercise </button>
+</form>

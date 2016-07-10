@@ -19,8 +19,9 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/', function(req, res, next) {
-	console.log(req.body)
+	
 	Exercise.find(function(err, exercises) {
+		console.log(req.body);
 		var muscleArray = [];
 		var equipment = [];
 		var exerciseArray = [];
@@ -109,5 +110,38 @@ router.get('/browser', function(req, res, next) {
 		console.log(exercises);
 		res.render('browser', {exercises: exercises});
 	})
+})
+
+router.post('/browser', function(req, res, next) {
+	console.log(req.body);
+	Exercise.find(function(err, exercises) {
+		var workout = [];
+		var muscleArray = [];
+		var equipment = [];
+		for (var key in req.body) {
+			for (var j = 0; j < exercises.length; j++) {
+				if (key === exercises[j].name) {
+					workout.push(exercises[j]);
+					if (muscleArray.indexOf(exercises[j].muscles[0]) < 0) {
+						muscleArray.push(exercises[j].muscles[0]);
+					}
+					if (equipment.indexOf(exercises[j].equipment) < 0) {
+						equipment.push(exercises[j].equipment);
+					}
+				}
+			}
+		}
+		var newWorkout = Workout({
+				name: "None yet!",
+				targetMuscles: muscleArray,
+				exercises: workout,
+				equipment: equipment
+		})
+		newWorkout.save(function(err) {
+			if (err) return next(err);
+			res.render('workout', {workout: workout, id: newWorkout._id, muscles: muscleArray, equipment: equipment});
+		})
+	})
+
 })
 module.exports = router;
