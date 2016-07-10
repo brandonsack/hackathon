@@ -1,3 +1,27 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+/*** basic styles ***/
+
+label { font-size: 24px; }
+.checkbox {
+  width: 175px;
+  margin-left: 20px;
+}
+
+/*** custom checkboxes ***/
+
+.check1 { display:none; } /* to hide the checkbox itself */
+.check1 + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+.check1 + label:before { content: "\f096"; } /* unchecked icon */
+.check1 + label:before { letter-spacing: 10px; } /* space between checkbox and label */
+
+.check1:checked + label:before { content: "\f046"; } /* checked icon */
+.check1:checked + label:before { letter-spacing: 5px; } /* allow space for check mark */
+
 input {
   padding: 10px;
   border: none;
@@ -9,13 +33,14 @@ input.focus {
   border-bottom: solid 2px #969696;
 }
 .form-group {
-  margin: 20px;
+  margin: 10px;
 }
 .user-form {
   font-size: 30px;
   padding-right: 15px;
 }
 .myButton {
+  margin: 10px;
 	-moz-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
 	box-shadow:inset 0px 1px 0px 0px #7a8eb9;
@@ -69,7 +94,7 @@ input.focus {
 .muscle-groups {
   position: relative;
   background: #eee;
-  width: 320px;
+  width: 380px;
   padding: .5rem 1rem;
   border-radius: 5px;
   box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.5);
@@ -246,8 +271,7 @@ html {
   /*font-family: 'Lato', sans-serif;*/
   font-weight: 300;
   font-family: Roboto;
-  height: 100%;
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 main {

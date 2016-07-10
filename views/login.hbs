@@ -15,10 +15,16 @@
     <input type="password" name="password" class="form-control" style="height: 5vh; font-size:40px">
   </div>
   <div class="form-group" style="display: flex; flex-direction: column">
-    <button id='submit' class="myButton" style="height: 30%; font-size: 40px;">Login</button>
+    <button id='submit' class="button" style="background: transparent">
+      <span class="btn-text">Login</span>
+    </button>
+  </div>
+  <div class="form-group" style="display: flex; flex-direction: column">
+    <a class="button" href='/register'>
+      <span class="btn-text">Register</span>
+    </a>
   </div>
   <div class="form-group">
       <a href='/login/facebook' class="myButton">Log in with Facebook</a>
-      <a class="myButton" href='/register'>Register</a>
   </div>
 </form>

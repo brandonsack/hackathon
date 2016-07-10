@@ -1,10 +1,10 @@
 {{#if error}}
-<div class="alert alert-danger" role="alert">
-  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
-  <span class="sr-only">Error:</span>
-  {{error.username}}
-  {{error.password}}
-  {{error.passwordr}}
+<div class="container">
+  <div class="alert alert-danger" role="alert">
+    {{error.username}}
+    {{error.password}}
+    {{error.passwordr}}
+  </div>
 </div>
 {{/if}}
 <div class="container">
@@ -21,8 +21,10 @@
       <label class="user-form">Verify Password</label>
       <input type="password" name="passwordRepeat" class="form-control" style="height: 5vh; font-size:40px">
     </div>
-    <div class="form-group" style="display: flex; flex-direction: column; height: 40vh">
-      <button id='submit' class="btn btn-success" style="margin-top: 40px; height: 30%; font-size: 50px;">Register</button>
+    <div class="form-group" style="display: flex; flex-direction: column">
+      <button id='submit' class="button" style="background: transparent">
+        <span class="btn-text">Register</span>
+      </button>
     </div>
   </form>
 </div>
