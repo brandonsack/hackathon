@@ -156,7 +156,6 @@ router.post('/savedWorkout', function(req, res, next){
 
 
 router.get('/browser', function(req, res, next) {
-
 	Exercise.find(function(err, exercises) {
 		console.log(exercises);
 		res.render('browser', {exercises: exercises});
@@ -164,7 +163,6 @@ router.get('/browser', function(req, res, next) {
 })
 
 router.post('/browser', function(req, res, next) {
-
 	Exercise.find(function(err, exercises) {
 		var workout = [];
 		var muscleArray = [];
@@ -190,7 +188,7 @@ router.post('/browser', function(req, res, next) {
 		})
 		newWorkout.save(function(err) {
 			if (err) return next(err);
-			res.render('workout', {workout: workout, id: newWorkout._id, muscles: muscleArray, equipment: equipment});
+			res.render('workout', {workout: workout, id: newWorkout._id, muscles: muscleArray, equipment: equipment, areWorkouts: workout.length});
 		})
 	})
 })
