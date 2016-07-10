@@ -6,6 +6,13 @@
 //   });
 // });
 
+if(window.DeviceMotionEvent){
+  console.log("MOTION", window.DeviceMotionEvent);
+  window.addEventListener("devicemotion", motion, false);
+}else{
+  console.log("DeviceMotionEvent is not supported");
+}
+
 document.querySelectorAll(".muscle-groups svg g g[id]").forEach(function(group) {
   // For the hover
   group.addEventListener('mouseover', function(el) {
