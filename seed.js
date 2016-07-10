@@ -236,14 +236,14 @@ var exercises2 = [
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/631/Female/m/631_1.jpg",
     "name": "Windmills",
     "muscles": "Adductors",
-    "equipment": "None"
+    "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/501/Male/m/501_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/501/Female/m/501_2.jpg",
     "name": "Ankle Circles",
     "muscles": "Calves",
-    "equipment": "None"
+    "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/623/Male/m/623_1.jpg",
@@ -299,14 +299,14 @@ var exercises2 = [
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/479/Female/m/479_1.jpg",
     "name": "Calf Stretch Elbows Against Wall",
     "muscles": "Calves",
-    "equipment": "None"
+    "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/480/Male/m/480_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/480/Female/m/480_1.jpg",
     "name": "Calf Stretch Hands Against Wall",
     "muscles": "Calves",
-    "equipment": "None"
+    "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/625/Male/m/625_1.jpg",
@@ -390,7 +390,7 @@ var exercises2 = [
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/468/Female/m/468_1.jpg",
     "name": "Kneeling Forearm Stretch",
     "muscles": "Forearms",
-    "equipment": "None"
+    "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/4/Male/m/4_1.jpg",
@@ -495,7 +495,7 @@ var exercises2 = [
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/487/Female/m/487_1.jpg",
     "name": "Chair Lower Back Stretch",
     "muscles": "Lats",
-    "equipment": "None"
+    "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/129/Male/m/129_1.jpg",
@@ -516,7 +516,7 @@ var exercises2 = [
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/586/Female/m/586_1.jpg",
     "name": "Dynamic Back Stretch",
     "muscles": "Lats",
-    "equipment": "None"
+    "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/293/Male/m/293_1.jpg",
@@ -656,7 +656,7 @@ var exercises2 = [
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1121/Male/m/1121_1.jpg",
     "name": "Floor Glute-Ham Raise",
     "muscles": "Hamstrings",
-    "equipment": "None"
+    "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/158/Male/m/158_1.jpg",
@@ -726,7 +726,7 @@ var exercises2 = [
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1631/Male/m/1631_1.jpg",
     "name": "Close-Grip EZ-Bar Curl with Band",
     "muscles": "Biceps",
-    "equipment": "E-Z Curl Bar"
+    "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/276/Male/m/276_1.jpg",
@@ -838,7 +838,7 @@ var exercises2 = [
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1561/Male/m/1561_1.jpg",
     "name": "Bodyweight Flyes",
     "muscles": "Pectorals",
-    "equipment": "E-Z Curl Bar"
+    "equipment": "Barbell"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3971/Male/m/3971_1.jpg",
@@ -873,7 +873,7 @@ var exercises2 = [
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/394/Female/m/394_1.jpg",
     "name": "Ankle On The Knee",
     "muscles": "Glutes",
-    "equipment": "None"
+    "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/662/Male/m/662_1.jpg",
@@ -943,7 +943,7 @@ var exercises2 = [
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/428/Female/m/428_1.jpg",
     "name": "Knee Across The Body",
     "muscles": "Glutes",
-    "equipment": "None"
+    "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/749/Male/m/749_1.jpg",
@@ -1048,7 +1048,7 @@ var exercises2 = [
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/879/Female/m/879_1.jpg",
     "name": "Inverted Row",
     "muscles": "Trapezius",
-    "equipment": "None"
+    "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/886/Male/m/886_1.jpg",
@@ -1082,64 +1082,64 @@ var exercises2 = [
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/467/Male/m/467_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/467/Female/m/467_1.jpg",
     "name": "Chin To Pectorals Stretch",
-    "muscles": "Neck",
-    "equipment": "None"
+    "muscles": "Obliques",
+    "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/27/Male/m/27_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/27/Female/m/27_1.jpg",
-    "name": "Isometric Neck Exercise - Front And Back",
-    "muscles": "Neck",
+    "name": "Isometric Obliques Exercise - Front And Back",
+    "muscles": "Obliques",
     "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/28/Male/m/28_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/28/Female/m/28_1.jpg",
-    "name": "Isometric Neck Exercise - Sides",
-    "muscles": "Neck",
+    "name": "Isometric Obliques Exercise - Sides",
+    "muscles": "Obliques",
     "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/25/Male/m/25_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/25/Female/m/25_1.jpg",
-    "name": "Lying Face Down Plate Neck Resistance",
-    "muscles": "Neck",
+    "name": "Lying Face Down Plate Obliques Resistance",
+    "muscles": "Obliques",
     "equipment": "Other"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/26/Male/m/26_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/26/Female/m/26_1.jpg",
-    "name": "Lying Face Up Plate Neck Resistance",
-    "muscles": "Neck",
+    "name": "Lying Face Up Plate Obliques Resistance",
+    "muscles": "Obliques",
     "equipment": "Other"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3451/Male/m/3451_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/3451/Male/m/3451_1.jpg",
-    "name": "Neck Bridge Prone",
-    "muscles": "Neck",
+    "name": "Obliques Bridge Prone",
+    "muscles": "Obliques",
     "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/628/Male/m/628_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/628/Female/m/628_1.jpg",
-    "name": "Neck-SMR",
-    "muscles": "Neck",
+    "name": "Obliques-SMR",
+    "muscles": "Obliques",
     "equipment": "Other"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/29/Male/m/29_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/29/Male/m/29_1.jpg",
-    "name": "Seated Head Harness Neck Resistance",
-    "muscles": "Neck",
+    "name": "Seated Head Harness Obliques Resistance",
+    "muscles": "Obliques",
     "equipment": "Other"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/447/Male/m/447_1.jpg",
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/447/Female/m/447_1.jpg",
-    "name": "Side Neck Stretch",
-    "muscles": "Neck",
-    "equipment": "None"
+    "name": "Side Obliques Stretch",
+    "muscles": "Obliques",
+    "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1781/Male/m/1781_1.jpg",
@@ -1174,7 +1174,7 @@ var exercises2 = [
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/497/Female/m/497_1.jpg",
     "name": "Arm Circles",
     "muscles": "Deltoids",
-    "equipment": "None"
+    "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/82/Male/m/82_1.jpg",
@@ -1265,7 +1265,7 @@ var exercises2 = [
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/760/Female/m/760_1.jpg",
     "name": "Alternate Leg Diagonal Bound",
     "muscles": "Quads",
-    "equipment": "None"
+    "equipment": "Body Only"
   },
   {
     "image1": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/728/Male/m/728_1.jpg",
@@ -1454,9 +1454,10 @@ var exercises2 = [
     "image2": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1701/Male/m/1701_1.jpg",
     "name": "Close-Grip EZ-Bar Press",
     "muscles": "Triceps",
-    "equipment": "E-Z Curl Bar"
+    "equipment": "Barbell"
   }
 ]
+
 exercises2.forEach(function(exercise){
 	var newExercise = Exercise({
 		name: exercise.name,

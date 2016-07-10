@@ -2,8 +2,13 @@ var express = require('express');
 var router = express.Router();
 var Exercise = require('../models/Exercise');
 var Workout = require('../models/Workout');
-var User = require('../models/User')
-var _ = require('underscore')
+var User = require('../models/User');
+var _ = require('underscore');
+
+var AccountSid = process.env.ACCOUNT_SID;
+var AuthToken = process.env.AUTHTOKEN;
+var fromPhone = process.env.FROM_PHONE;
+var twilio = require('twilio')(AccountSid, AuthToken);
 
 /* GET home page. */
 router.use(function(req, res, next) {
@@ -56,7 +61,6 @@ router.post('/', function(req, res, next) {
 		for (var i = 0; i < arr.length; i++) {
 			var temp = _.shuffle(arr[i]);
 			for (var j = 0; j < sets; j++) {
-
 				var e = temp.pop();
 				if (e) {
 					workout.push(e);
@@ -148,5 +152,17 @@ router.post('/browser', function(req, res, next) {
 		})
 	})
 
+})
+
+
+router.get('/profile/send', function(req, res, next){
+	//from JACK's TWILIO ACCOUNT. CAN ONLY SEND TO HIS NUMBER
+	twilio.messages.create({
+		to: '+14149435013',
+		from: fromPhone,
+		body: 'TEST'
+	}, function(err, message){
+		console.log(message);
+	})
 })
 module.exports = router;
