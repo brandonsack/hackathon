@@ -120,6 +120,7 @@ router.post('/savedWorkout', function(req, res, next){
 		workout.exercises.forEach(function(exercise){
 					textBody += (exercise.name + ", ");
 		});
+		textBody = textBody.substring(0, textBody.length()-1);
 		twilio.messages.create({
 			to: '+14149435013',
 			from: fromPhone,
@@ -172,18 +173,6 @@ router.post('/browser', function(req, res, next) {
 			res.render('workout', {workout: workout, id: newWorkout._id, muscles: muscleArray, equipment: equipment});
 		})
 	})
-
 })
 
-//TWILIO SET UP for basic functionality
-router.get('/profile/send', function(req, res, next){
-	//from JACK's TWILIO ACCOUNT. CAN ONLY SEND TO HIS NUMBER
-	twilio.messages.create({
-		to: '+14149435013',
-		from: fromPhone,
-		body: 'TEST'
-	}, function(err, message){
-		console.log(message);
-	})
-})
 module.exports = router;
