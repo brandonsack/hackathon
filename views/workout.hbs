@@ -1,9 +1,11 @@
 <div class="container">
   <a href='/profile' class="button"><span class="btn-text">Back to Your Profile</span></a>
 </div>
-<div>
+<div class="container">
   <h1 class="table-title">Your Personal Workout</h1>
+</div>
   {{#if areWorkouts}}
+  <div class="container">
   <table class="table-wrap">
       <tr>
         <th class="th-head">Name</th>
@@ -17,7 +19,11 @@
         <td id="equipment{{@index}}">{{equipment}}</td>
         <td><img class="exercise-image" src={{image1}} id="img1{{@index}}"></img></td>
         <td><img class="exercise-image" src={{image2}} id="img2{{@index}}"></img></td>
-        <td><button id="findAnother{{@index}}"></button></td>
+        <td>
+          <button id="findAnother{{@index}}" class="button" style="border: 2px solid #333">
+            <i class="fa fa-refresh" aria-hidden="true"></i>
+          </button>
+        </td>
       </tr>
     {{/each}}
   </table>
@@ -28,7 +34,7 @@
 <div class="container">
   <form method="POST" action="/save">
     <div class="form-group">
-      <input type="text" name="workoutName" class="form-control" id="workoutName" placeholder="Workout Name">
+      <input type="text" name="workoutName" class="form-control" id="workoutName" placeholder="Workout Name" style="height: 50px; width: 200px; padding-top: 12px; padding-bottom: 8px">
       <input style="display:none;" name="workout" value="{{id}}"></input>
     	<button class="button"><span class="btn-text">Save</span></button>
     </div>
