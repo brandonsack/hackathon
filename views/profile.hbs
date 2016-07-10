@@ -1,11 +1,17 @@
-<a href='/'> New Workout </a>
-<h1>{{user.username}}</h1>
-<div>
-	<h4>Workouts</h4>
+
+<div class="container">
+	<a class="button" href='/'>
+		<span class="btn-text">New Workout</span>
+	</a>
+</div>
+<div class="container" style="display: flex; flex-direction: column">
+	<h1>Hey {{user.username}}!</h1>
+	<br>
+	<h2>Your Workouts</h2>
 	{{# each user.workouts}}
 		<form method="GET" action="/savedWorkout">
 			<input style="display:none;" name="workout" value="{{_id}}"></input>
-			<button>{{name}}</button>
+			<button class="button"><span class="btn-text">{{name}}</span></button>
 		</form>
 	{{/each}}
 </div>
