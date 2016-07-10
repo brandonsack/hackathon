@@ -136,10 +136,6 @@ router.post('/deleteWorkout', function(req, res, next) {
 	})
 })
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 882d69fb5d87f954ba8a6e4ff8a067230d384997
 router.post('/savedWorkout', function(req, res, next){
 	Workout.findById(req.query.workout, function(err, workout) {
 		workout.exercises
@@ -161,10 +157,7 @@ router.post('/savedWorkout', function(req, res, next){
 		});
 	});
 });
-<<<<<<< HEAD
-=======
 
->>>>>>> 882d69fb5d87f954ba8a6e4ff8a067230d384997
 
 router.get('/browser', function(req, res, next) {
 
